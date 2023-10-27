@@ -18,6 +18,7 @@ const Modal = () => {
 
       localStorage.setItem('username', username);
       localStorage.setItem('password', password);
+      localStorage.setItem('location', location);
 
       window.location.reload();
       setError('');
